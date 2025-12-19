@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #f7c1f0;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+/* MAIN LAYOUT */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* LEFT CARD */
+.left-card {
+    width: 250px;
+    background-color: #f9c8f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.left-card img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* RIGHT CARD */
+.right-card {
+    width: 450px;
+    background-color: #f9c8f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* HEADINGS */
+h3, h4 {
+    margin-top: 15px;
+}
+
+/* LISTS */
+ul {
+    padding-left: 20px;
+}
+
+/* FORM */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f7c1f0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
